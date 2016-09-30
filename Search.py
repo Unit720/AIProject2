@@ -12,6 +12,7 @@
 #  --------------------------------------------------------------------------
 
 import math
+import time
 # import plotly.plotly as py
 # import plotly.graph_objs as go
 
@@ -84,9 +85,12 @@ def search(selection):
 
 
 def main():
+    start_time = time.time()
     # basic execution
     # call the function
     print(search(1))
 
+    print ("End")
+    print ("Time taken: " + str(time.time() - start_time) + ' s')
 
 main()
