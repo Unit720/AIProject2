@@ -45,3 +45,9 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+.idea/workspace.xml
+*.xml
+.idea/AIProject2.iml
+*.gz
+proj2-report/proj2-report.pdf
+proj2-report/proj2-report.log
